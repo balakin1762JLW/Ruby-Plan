@@ -1,0 +1,172 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    min-height: 100vh;
+    color: #33ff33;
+       background-image: url('res/Stone.png');
+  background-size: 50px 50px;
+    image-rendering: pixelated;
+      background-color: rgba(0, 0, 0, 0.6); /* Цвет затемнения */
+  background-blend-mode: darken;
+}
+
+/* Этот класс теперь не нужен в HTML, если вы хотите градиент на весь экран */
+/* Но если вы его оставите, удалите из него фиксированную высоту */
+.minecraft-sky {
+    display: none; 
+}
+.logo {
+  width: 600px;
+  height: 200px;
+}
+
+
+/* Контейнер страницы */
+.container {
+    width: 100%;
+    max-width: 700px;
+    
+    border: 2px solid #000; /* Зеленая рамка */
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Зеленое свечение */
+    text-align: center; /* Центрируем текст внутри */
+    background-image: url('res/Dirt.png');
+      background-size: 50px 50px;
+    image-rendering: pixelated;
+      background-color: rgba(0, 0, 0, 0.3); /* Цвет затемнения */
+  background-blend-mode: darken;
+}
+.containerLogo {
+    width: 100%;
+    max-width: 700px;
+    
+    border: 2px solid #000; /* Зеленая рамка */
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Зеленое свечение */
+    text-align: center; /* Центрируем текст внутри */
+    background-image: url('res/Dirt.png');
+          background-size: 50px 50px;
+    image-rendering: pixelated;
+      background-color: rgba(0, 0, 0, 0.3); /* Цвет затемнения */
+  background-blend-mode: darken;
+}
+
+/* Заголовок */
+h1 {
+    color: #33ff33;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px #000;
+}
+h3{
+    color: rgba(194, 154, 118, 1.0);
+}
+/* Текст параграфов */
+p {
+    color: #FFFFFF; /* Светло-зеленый для читаемости */
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+/* Ссылки */
+a {
+    color: rgba(169, 190, 201, 1.0);
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+a:hover {
+      color: rgba(169, 190, 201, 1.0);
+    background: #FFFFFF;
+    color: #000;
+}
+
+/* Разделительные линии (теперь зеленые) */
+hr {
+    color: rgba(132, 148, 156, 1.0);
+    border: 0;
+    border-top: 1px solid rgba(132, 148, 156, 1.0);
+    margin: 20px auto;
+    width: 80%;
+}
+
+hr.dashed {
+    border-top: 1px dashed rgba(132, 148, 156, 1.0);
+}
+
+/* Счетчик посещений */
+.counter-section {
+    margin: 25px auto;
+    background:rgba(169, 190, 201, 1.0);
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+
+.counter-label {
+    color: #000;
+    font-size: 11px;
+}
+
+.counter-digits {
+    color: #000;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+/* Кнопка скачивания */
+.button {
+    background: rgba(204, 129, 63, 1.0);
+    color:  #FFFFFF;
+    border: 2px solid rgba(0219, 114, 22, 1.0);
+    padding: 15px 30px;
+    font-family: inherit;31A32A
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+   
+    margin-top: 20px;
+}
+
+.button:hover {
+    background: rgba(214, 125, 47, 1.0);
+    color: #FFFFFF;
+   
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+.buttonL {
+    background: rgba(136, 194, 118, 1.0);
+    color:  #FFFFFF;
+    border: 2px solid rgba(106, 191, 78, 1.0);
+    padding: 15px 30px;
+    font-family: inherit;31A32A
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+   
+    margin-top: 20px;
+}
+
+.buttonL:hover {
+    background: rgba(113, 176, 93, 1.0);
+    color: #FFFFFF;
+   
+}
+
+.buttonL:active {
+    transform: scale(0.98);
+}
